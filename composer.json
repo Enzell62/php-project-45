@@ -1,0 +1,10 @@
+{
+    "name": "hexlet/code",
+    "description": "php-project-45",
+    "authors": [
+        {
+            "name": "Enzell62"
+        }
+    ],
+    "require": {}
+}
