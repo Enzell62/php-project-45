@@ -1,4 +1,12 @@
 #!/usr/bin/env php
 <?php
 
-echo "Welcome to the Brain Games!";
+require_once __DIR__ . "/../vendor/autoload.php";
+
+use function BrainGames\Cli\cli;
+
+cli();
+
+// echo "Welcome to the Brain Games!\nWhat are you name?\n";
+// $name = trim(fgets(STDIN));
+// echo "Hello, {$name}!\n";
