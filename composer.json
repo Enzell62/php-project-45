@@ -18,7 +18,8 @@
         "files": [
             "src/Cli.php",
             "src/games/game-even.php",
-            "src/Engine.php"
+            "src/Engine.php",
+            "src/games/game-calc.php"
         ]
     },
     "repositories":[
@@ -29,6 +30,7 @@
     ],
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"        
       ]
 }

@@ -29,6 +29,7 @@ function run_game(callable $name_game)
         if ($result !== "Correct!") {
             break;
         }
+        line($result);
     }
     if ($result == "Correct!") {
         line('Congratulations, %s!', $name);
