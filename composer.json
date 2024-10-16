@@ -21,7 +21,8 @@
             "src/Engine.php",
             "src/games/game-calc.php",
             "src/games/game-gcd.php",
-            "src/games/game-progression.php"
+            "src/games/game-progression.php",
+            "src/games/game-prime.php"
         ]
     },
     "repositories":[
@@ -35,6 +36,7 @@
         "bin/brain-even",
         "bin/brain-calc",
         "bin/brain-gcd",
-        "bin/brain-progression"
+        "bin/brain-progression",
+        "bin/brain-prime"
       ]
 }
