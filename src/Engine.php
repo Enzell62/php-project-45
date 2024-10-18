@@ -18,7 +18,7 @@ function run_question(callable $name_game)
 
 function run_game(callable $name_game)
 {
-    line('Welcome To The Brain Game!');
+    line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     [$rules, $question, $answer] = $name_game();
