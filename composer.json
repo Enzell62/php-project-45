@@ -1,6 +1,7 @@
 {
     "name": "hexlet/code",
     "description": "php-project-45",
+    "type": "project",
     "authors": [
         {
             "name": "Enzell62"
