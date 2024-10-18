@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a61d7cb19c2fb3a5a7f18f2d0bb1be26",
+    "content-hash": "d6b68e8f12b1a128ec7a65fd9ec476fe",
     "packages": [
         {
             "name": "wp-cli/php-cli-tools",
-            "version": "dev-master",
+            "version": "v0.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/php-cli-tools",
-                "reference": "75bb5ad893e10d2065b366c9ea63ea5ad2344c54"
+                "reference": "d1fe500378f53fb5ae1072c0daa77095c384a082"
             },
             "require": {
                 "php": ">= 5.6.0"
@@ -21,7 +21,6 @@
                 "roave/security-advisories": "dev-latest",
                 "wp-cli/wp-cli-tests": "^4"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -83,7 +82,7 @@
                 "cli",
                 "console"
             ],
-            "time": "2024-09-24T11:42:20+00:00"
+            "time": "2024-10-01T11:13:49+00:00"
         }
     ],
     "packages-dev": [
@@ -170,9 +169,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wp-cli/php-cli-tools": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
