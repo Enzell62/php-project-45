@@ -24,6 +24,7 @@ function run_game(callable $name_game)
     [$rules, $question, $answer] = $name_game();
     line($rules);
     $number_of_repeat = 3;
+    $result = null;
     for ($i = $number_of_repeat; $i > 0; $i--) {
         $result = (run_question($name_game));
         if ($result !== "Correct!") {

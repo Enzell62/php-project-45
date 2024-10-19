@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Gcd;
 
-function check_gcd($a, $b)
+function check_gcd(int $a, int $b)
 {
     $smallest = $a < $b ? $a : $b;
     $result = 1;

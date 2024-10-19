@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Prime;
 
-function check_simple($n)
+function check_simple(int $n)
 {
     for ($i = 2; $i <= sqrt($n); $i++) {
         if ($n % $i == 0) {
